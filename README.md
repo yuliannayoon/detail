@@ -114,3 +114,24 @@ https://www.indiegogo.com/en/projects/clomp/clomp-run-easy-burn-more-body-fat
 This project demonstrated the successful commercialization of a wearable fNIRS-based muscle oxygen monitoring device.
 
 https://github.com/yuliannayoon/impedance_matching/issues/2#issue-4079400928
+
+
+## 📡 RF Hardware Testing & Validation
+
+Testing the RF performance is a critical part of my hardware design process. Below is the S-parameter (S11) measurement result for a 2.4 GHz wireless system.
+
+| Measurement Plot | Technical Analysis |
+| :--- | :--- |
+| <img src="YOUR_IMAGE_URL_HERE" width="450" alt="VNA Return Loss Plot"> | **[Key Performance Indicators]** <br><br> • **Target Frequency:** 2.4 GHz ISM Band <br> • **Return Loss (S11):** **-18.38 dB** at 2.45 GHz <br> • **Bandwidth:** Excellent impedance matching across the entire band (<-10 dB) |
+
+### 🔍 Measurement Analysis & Insights
+
+* **Impedance Matching:** The circuit demonstrates a deep resonance at 2.45 GHz with a return loss of -18.38 dB. This indicates that over 98% of the power is successfully transmitted to the antenna/load, minimizing reflected power and ensuring high efficiency.
+
+* **Observation of Ripples:** The high-frequency ripples (periodic fluctuations) observed beyond 5 GHz are attributed to **environmental reflections** and **multipath interference**. 
+    * **Context:** Since the measurement was performed in a non-shielded environment (Non-Chamber) using a Vector Network Analyzer (VNA), signals reflected off nearby objects or cable interfaces caused phase interference.
+    * **Conclusion:** These ripples are external measurement artifacts and do not impact the core performance of the 2.4 GHz matching network.
+
+### 🛠 Tools Used
+* **Equipment:** Keysight PNA Network Analyzer (N5227A, 10 MHz - 67 GHz)
+* **Design Focus:** PCB Stack-up optimization and Impedance control for RF signal integrity.
