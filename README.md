@@ -136,17 +136,8 @@ Testing and verifying RF performance is a core part of my hardware development p
 * **Equipment:** Keysight PNA Network Analyzer (N5227A, 10 MHz - 67 GHz)
 * **Expertise:** RF Circuit Design, VNA Calibration, PCB Stack-up Optimization, and Impedance Control.
 
-## 📐 Impedance Matching: Layout Design & RF Verification
 
-This project focuses on the design and verification of a 2.4 GHz matching network to ensure optimal signal integrity and minimal return loss.
-
-| RF Layout & VNA Measurement | Technical Specifications |
-| :--- | :--- |
-| ![Impedance Matching Result](https://github.com/user-attachments/assets/b7801090-8495-43df-86b6-4f3185360358) | **[Project Highlights]** <br><br> • **Target Band:** 2.4 GHz ISM <br> • **Measured S11:** **-18.38 dB** <br> • **Impedance:** 50 $\Omega$ Controlled <br> • **Tools:** VNA, EDA Tool, Smith Chart |
-
-### 🔍 Engineering Analysis
-
-#### 1. Layout Design Strategy
+#### 3. Layout Design Strategy
 * **Controlled Impedance:** The transmission lines were designed as 50 $\Omega$ microstrip lines, with trace widths calculated based on the PCB stack-up and dielectric constant ($\epsilon_r$).
 * **Optimization:** Minimized parasitic inductance and capacitance by optimizing component placement and reducing via stubs, ensuring a clean signal path for high-frequency operation.
 
