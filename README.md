@@ -37,7 +37,8 @@ The product was successfully launched through crowdfunding platforms.
 **Kickstarter Launch**  
 https://www.kickstarter.com/projects/763656766/repace-the-revolutionary-scientific-workout-solution?ref=discovery&term=repace&total_hits=37&category_id=341  
 
-**Indiegogo Launch**
+**Indiegogo Launch**  
+https://www.indiegogo.com/en/projects/clomp/clomp-run-easy-burn-more-body-fat
 
 The device provides real-time monitoring of muscle oxygen saturation for sports performance analysis.
 
@@ -107,7 +108,7 @@ The product was successfully launched through crowdfunding platforms and prepare
 **Kickstarter Launch**  
 https://www.kickstarter.com/projects/763656766/repace-the-revolutionary-scientific-workout-solution?ref=discovery&term=repace&total_hits=37&category_id=341  
 
-**Indiegogo Launch**
+**Indiegogo Launch**  
 https://www.indiegogo.com/en/projects/clomp/clomp-run-easy-burn-more-body-fat
-This project demonstrated the successful commercialization of a wearable fNIRS-based muscle oxygen monitoring device.
 
+This project demonstrated the successful commercialization of a wearable fNIRS-based muscle oxygen monitoring device.
