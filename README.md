@@ -137,14 +137,3 @@ Testing and verifying RF performance is a core part of my hardware development p
 * **Expertise:** RF Circuit Design, VNA Calibration, PCB Stack-up Optimization, and Impedance Control.
 
 
-#### 3. Layout Design Strategy
-* **Controlled Impedance:** The transmission lines were designed as 50 $\Omega$ microstrip lines, with trace widths calculated based on the PCB stack-up and dielectric constant ($\epsilon_r$).
-* **Optimization:** Minimized parasitic inductance and capacitance by optimizing component placement and reducing via stubs, ensuring a clean signal path for high-frequency operation.
-
-#### 2. VNA Measurement Insights
-* **Resonance Performance:** The VNA plot confirms a sharp resonance at 2.45 GHz with a return loss of -18.38 dB, indicating excellent power transfer efficiency (over 98%).
-* **Ripple Analysis:** The periodic ripples observed at higher frequencies (> 5 GHz) are recognized as **measurement artifacts** due to the non-shielded environment (multipath reflections). These do not affect the 2.4 GHz band's performance.
-
-### 🛠 Technical Stack
-* **Equipment:** Keysight PNA Network Analyzer (N5227A)
-* **Skills:** RF Layout Design, Impedance Matching, Signal Integrity Analysis, Smith Chart Tuning
