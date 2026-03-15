@@ -1,4 +1,4 @@
-# porfolio
+# obelab
 # Project Highlight
 
 - Designed and developed an optical sensing system using a light source and photodiode to detect very small signals, amplify them, and measure muscle oxygen saturation; successfully transferred the product to mass production.
@@ -108,5 +108,6 @@ The product was successfully launched through crowdfunding platforms and prepare
 https://www.kickstarter.com/projects/763656766/repace-the-revolutionary-scientific-workout-solution?ref=discovery&term=repace&total_hits=37&category_id=341  
 
 **Indiegogo Launch**
-
+https://www.indiegogo.com/en/projects/clomp/clomp-run-easy-burn-more-body-fat
 This project demonstrated the successful commercialization of a wearable fNIRS-based muscle oxygen monitoring device.
+
