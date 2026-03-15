@@ -1,4 +1,4 @@
-# obelab
+# project
 # Project Highlight
 
 - Designed and developed an optical sensing system using a light source and photodiode to detect very small signals, amplify them, and measure muscle oxygen saturation; successfully transferred the product to mass production.
