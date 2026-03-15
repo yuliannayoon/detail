@@ -118,20 +118,20 @@ https://github.com/yuliannayoon/impedance_matching/issues/2#issue-4079400928
 
 ## 📡 RF Hardware Testing & Validation
 
-Testing the RF performance is a critical part of my hardware design process. Below is the S-parameter (S11) measurement result for a 2.4 GHz wireless system.
+Testing and verifying RF performance is a core part of my hardware development process. Below is the S-parameter (S11) measurement result for a 2.4 GHz wireless system, demonstrating my ability to use high-end lab equipment for signal integrity validation.
 
 | Measurement Plot | Technical Analysis |
 | :--- | :--- |
-| <img src="YOUR_IMAGE_URL_HERE" width="450" alt="VNA Return Loss Plot"> | **[Key Performance Indicators]** <br><br> • **Target Frequency:** 2.4 GHz ISM Band <br> • **Return Loss (S11):** **-18.38 dB** at 2.45 GHz <br> • **Bandwidth:** Excellent impedance matching across the entire band (<-10 dB) |
+| ![VNA Return Loss](https://github.com/user-attachments/assets/b7801090-8495-43df-86b6-4f3185360358) | **[Key Performance Indicators]** <br><br> • **Target Frequency:** 2.4 GHz ISM Band <br> • **Return Loss (S11):** **-18.38 dB** at 2.45 GHz <br> • **Status:** Excellent impedance matching (<-10 dB threshold met) |
 
-### 🔍 Measurement Analysis & Insights
+### 🔍 Technical Insights & Analysis
 
-* **Impedance Matching:** The circuit demonstrates a deep resonance at 2.45 GHz with a return loss of -18.38 dB. This indicates that over 98% of the power is successfully transmitted to the antenna/load, minimizing reflected power and ensuring high efficiency.
+* **Impedance Matching Success:** The device under test (DUT) shows a strong resonance at 2.45 GHz with a return loss of -18.38 dB. This confirms that the impedance matching network is well-optimized, ensuring minimal signal reflection and maximum power transfer efficiency.
 
-* **Observation of Ripples:** The high-frequency ripples (periodic fluctuations) observed beyond 5 GHz are attributed to **environmental reflections** and **multipath interference**. 
-    * **Context:** Since the measurement was performed in a non-shielded environment (Non-Chamber) using a Vector Network Analyzer (VNA), signals reflected off nearby objects or cable interfaces caused phase interference.
-    * **Conclusion:** These ripples are external measurement artifacts and do not impact the core performance of the 2.4 GHz matching network.
+* **Analysis of High-Frequency Ripples:** The periodic fluctuations (ripples) observed above 5 GHz are identified as **measurement artifacts** caused by the testing environment. 
+    * **Root Cause:** Since the measurement was conducted in a non-shielded laboratory setting (Non-Chamber), these ripples result from multipath reflections off nearby objects and phase interference at the cable/connector interfaces.
+    * **Conclusion:** These effects do not impact the functional performance of the 2.4 GHz band, confirming the reliability of the core design.
 
-### 🛠 Tools Used
+### 🛠 Engineering Tools & Skills
 * **Equipment:** Keysight PNA Network Analyzer (N5227A, 10 MHz - 67 GHz)
-* **Design Focus:** PCB Stack-up optimization and Impedance control for RF signal integrity.
+* **Expertise:** RF Circuit Design, VNA Calibration, PCB Stack-up Optimization, and Impedance Control.
