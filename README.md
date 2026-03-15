@@ -136,6 +136,20 @@ Testing and verifying RF performance is a core part of my hardware development p
 * **Equipment:** Keysight PNA Network Analyzer (N5227A, 10 MHz - 67 GHz)
 * **Expertise:** RF Circuit Design, VNA Calibration, PCB Stack-up Optimization, and Impedance Control.
 
-* https://github.com/yuliannayoon/impedance_matching/issues/3#issue-4079452727
+* 
+
+## 📐 RF Layout Design for Impedance Matching
+
+This section details the PCB layout strategy implemented to achieve optimal impedance matching at 2.4 GHz. The design focuses on minimizing parasitic effects and maintaining a controlled impedance transmission path.
+
+| Conceptual RF Layout | Design Specifications |
+| :--- | :--- |
+| ![RF Layout Concept](https://github.com/yuliannayoon/impedance_matching/issues/3#issue-4079452727) | **[Design Parameters]** <br><br> • **Target Frequency:** 2.4 GHz ISM <br> • **Trace Type:** Microstrip Line <br> • **Characteristic Impedance ($Z_0$):** 50 $\Omega$ Controlled <br> • **Substrate:** FR-4 (specify if Rogers) |
+
+### 🔍 Engineering Highlights
+
+* **Controlled Impedance Traces:** Trace widths and gaps were precisely calculated and implemented based on the PCB stack-up to ensure a continuous 50 $\Omega$ characteristic impedance. This minimizes signal reflection at impedance discontinuities.
+* **Parasitic Minimization:** Component placement and transition points (e.g., from connector to trace) were optimized to reduce parasitic inductance and capacitance, critical for maintaining signal integrity at microwave frequencies.
+* **Ground Plane Integrity:** A solid, unbroken reference ground plane was maintained directly beneath the RF signal traces to provide a clear return path and improve shielding.
 
 
