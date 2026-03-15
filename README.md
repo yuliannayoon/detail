@@ -139,13 +139,14 @@ Testing and verifying RF performance is a core part of my hardware development p
 
 ## 📐 RF Layout Design for Impedance Matching
 
-This section highlights the PCB layout techniques used to ensure stable 50 $\Omega$ impedance matching for a 2.4 GHz wireless system.
+This section details the PCB layout strategy implemented to achieve optimal impedance matching at 2.4 GHz. The design focuses on minimizing parasitic effects and maintaining a controlled impedance transmission path.
 
 | PCB Design Snapshot | Design Specifications |
 | :--- | :--- |
-| <img src="https://github.com/user-attachments/assets/563837358-85e5ba37-4415-4dbf-b432-09d0055749a2" width="450" alt="RF Layout Results"> | **[Key Design Rules]** <br><br> • **Target Impedance:** 50 $\Omega$ (Microstrip) <br> • **Frequency:** 2.4 GHz ISM Band <br> • **EDA Tool:** EasyEDA / LCSC Integration <br> • **Focus:** Parasitic reduction & Via-stitching |
+| <img src="https://github.com/user-attachments/assets/85e5ba37-4415-4dbf-b432-09d0055749a2" width="450" alt="RF Layout Design"> | **[Design Parameters]** <br><br> • **Target Frequency:** 2.4 GHz ISM <br> • **Trace Type:** Microstrip Line <br> • **Characteristic Impedance ($Z_0$):** 50 $\Omega$ Controlled <br> • **Substrate:** FR-4 |
 
 ### 🔍 Engineering Highlights
 
-* **Impedance Control:** Trace widths were calculated based on the PCB stack-up and dielectric constant to maintain a continuous 50 $\Omega$ path.
-* **Component Placement:** Optimized the placement of the matching network to reduce parasitic effects, ensuring the design aligns with the Smith Chart simulation.
+* **Controlled Impedance Traces:** Trace widths and gaps were precisely calculated based on the PCB stack-up to ensure a continuous 50 $\Omega$ characteristic impedance. This minimizes signal reflection at impedance discontinuities.
+* **Parasitic Minimization:** Component placement and transition points (e.g., from connector to trace) were optimized to reduce parasitic inductance and capacitance, critical for maintaining signal integrity at microwave frequencies.
+* **Ground Plane Integrity:** A solid, unbroken reference ground plane was maintained directly beneath the RF signal traces to provide a clear return path and improve shielding.
