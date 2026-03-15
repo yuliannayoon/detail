@@ -137,7 +137,7 @@ Testing and verifying RF performance is a core part of my hardware development p
 * **Expertise:** RF Circuit Design, VNA Calibration, PCB Stack-up Optimization, and Impedance Control.
 
 
-## 📐 RF Layout Design for Impedance Matching
+## 3.📐 RF Layout Design for Impedance Matching
 
 This section details the PCB layout strategy implemented to achieve optimal impedance matching at 2.4 GHz. The design focuses on minimizing parasitic effects and maintaining a controlled impedance transmission path.
 
