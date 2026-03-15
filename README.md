@@ -136,4 +136,6 @@ Testing and verifying RF performance is a core part of my hardware development p
 * **Equipment:** Keysight PNA Network Analyzer (N5227A, 10 MHz - 67 GHz)
 * **Expertise:** RF Circuit Design, VNA Calibration, PCB Stack-up Optimization, and Impedance Control.
 
+* https://github.com/yuliannayoon/impedance_matching/issues/3#issue-4079452727
+
 
