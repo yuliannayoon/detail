@@ -116,7 +116,7 @@ This project demonstrated the successful commercialization of a wearable fNIRS-b
 https://github.com/yuliannayoon/impedance_matching/issues/2#issue-4079400928
 
 
-## 📡 RF Hardware Testing & Validation
+## 2. 📡 RF Hardware Testing & Validation
 
 Testing and verifying RF performance is a core part of my hardware development process. Below is the S-parameter (S11) measurement result for a 2.4 GHz wireless system, demonstrating my ability to use high-end lab equipment for signal integrity validation.
 
