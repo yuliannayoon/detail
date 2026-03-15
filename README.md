@@ -136,20 +136,17 @@ Testing and verifying RF performance is a core part of my hardware development p
 * **Equipment:** Keysight PNA Network Analyzer (N5227A, 10 MHz - 67 GHz)
 * **Expertise:** RF Circuit Design, VNA Calibration, PCB Stack-up Optimization, and Impedance Control.
 
-* 
 
-## 3. 📐 RF Layout Design for Impedance Matching
+## 📐 RF Layout Design for Impedance Matching
 
-This section details the PCB layout strategy implemented to achieve optimal impedance matching at 2.4 GHz. The design focuses on minimizing parasitic effects and maintaining a controlled impedance transmission path.
+This section highlights the PCB layout techniques used to ensure stable 50 $\Omega$ impedance matching for a 2.4 GHz wireless system.
 
-| Conceptual RF Layout | Design Specifications |
+| PCB Design Snapshot | Design Specifications |
 | :--- | :--- |
-| ![RF Layout Concept](https://github.com/yuliannayoon/impedance_matching/issues/3#issue-4079452727) | **[Design Parameters]** <br><br> • **Target Frequency:** 2.4 GHz ISM <br> • **Trace Type:** Microstrip Line <br> • **Characteristic Impedance ($Z_0$):** 50 $\Omega$ Controlled <br> • **Substrate:** FR-4 (specify if Rogers) |
+| <img src="https://github.com/user-attachments/assets/b7801090-8495-43df-86b6-4f3185360358" width="450" alt="RF Layout Results"> | **[Key Design Rules]** <br><br> • **Target Impedance:** 50 $\Omega$ (Microstrip) <br> • **Frequency:** 2.4 GHz ISM Band <br> • **EDA Tool:** EasyEDA / LCSC Integration <br> • **Focus:** Parasitic reduction & Via-stitching |
 
 ### 🔍 Engineering Highlights
 
-* **Controlled Impedance Traces:** Trace widths and gaps were precisely calculated and implemented based on the PCB stack-up to ensure a continuous 50 $\Omega$ characteristic impedance. This minimizes signal reflection at impedance discontinuities.
-* **Parasitic Minimization:** Component placement and transition points (e.g., from connector to trace) were optimized to reduce parasitic inductance and capacitance, critical for maintaining signal integrity at microwave frequencies.
-* **Ground Plane Integrity:** A solid, unbroken reference ground plane was maintained directly beneath the RF signal traces to provide a clear return path and improve shielding.
-
+* **Impedance Control:** Trace widths were calculated based on the PCB stack-up and dielectric constant to maintain a continuous 50 $\Omega$ path.
+* **Component Placement:** Optimized the placement of the matching network to reduce parasitic effects, ensuring the design aligns with the Smith Chart simulation.
 
