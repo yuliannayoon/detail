@@ -143,10 +143,9 @@ This section highlights the PCB layout techniques used to ensure stable 50 $\Ome
 
 | PCB Design Snapshot | Design Specifications |
 | :--- | :--- |
-| <img src="https://github.com/user-attachments/assets/b7801090-8495-43df-86b6-4f3185360358" width="450" alt="RF Layout Results"> | **[Key Design Rules]** <br><br> • **Target Impedance:** 50 $\Omega$ (Microstrip) <br> • **Frequency:** 2.4 GHz ISM Band <br> • **EDA Tool:** EasyEDA / LCSC Integration <br> • **Focus:** Parasitic reduction & Via-stitching |
+| <img src="https://github.com/user-attachments/assets/563837358-85e5ba37-4415-4dbf-b432-09d0055749a2" width="450" alt="RF Layout Results"> | **[Key Design Rules]** <br><br> • **Target Impedance:** 50 $\Omega$ (Microstrip) <br> • **Frequency:** 2.4 GHz ISM Band <br> • **EDA Tool:** EasyEDA / LCSC Integration <br> • **Focus:** Parasitic reduction & Via-stitching |
 
 ### 🔍 Engineering Highlights
 
 * **Impedance Control:** Trace widths were calculated based on the PCB stack-up and dielectric constant to maintain a continuous 50 $\Omega$ path.
 * **Component Placement:** Optimized the placement of the matching network to reduce parasitic effects, ensuring the design aligns with the Smith Chart simulation.
-
