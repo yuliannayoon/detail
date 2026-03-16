@@ -99,48 +99,38 @@ https://www.indiegogo.com/en/projects/clomp/clomp-run-easy-burn-more-body-fat
 This project demonstrated the successful commercialization of a wearable fNIRS-based muscle oxygen monitoring device.
 
 
+
 # 🏃 Wearable Muscle Oxygen Monitoring Device (SmO₂ Monitor)
 
 This project showcases the end-to-end hardware development process of an fNIRS-based wearable device, evolving from a functional engineering prototype to a mass-produced consumer product.
 
-## 🚀 Phase 1: Engineering Prototype & Hardware Validation
+## 🚀 Phase 1: Concept & Engineering Prototype
+In the early stage, the focus was on validating the fNIRS (Functional Near-Infrared Spectroscopy) sensor accuracy and integrating the wireless charging system within a functional form factor.
 
-In the early stages, the focus was on validating the fNIRS (Functional Near-Infrared Spectroscopy) sensor accuracy and power delivery.
-
-| Engineering Prototype (Internal View) | Hardware Analysis |
+| Engineering Prototype (Internal) | Hardware Analysis |
 | :--- | :--- |
-| ![Image](https://github.com/user-attachments/assets/3dceb73d-b276-42f3-b70e-b46a8689c06e)
- | **[Validation Focus]** <br><br> • **Core Tech:** Integration of NIR LED source and PD detectors. <br> • **Architecture:** Rigid PCB for initial signal processing validation. <br> • **Testing:** Wireless charging coil integration and battery discharge testing. |
-
-### 🔍 Engineering Highlights:
-* **Signal Integrity:** Designed the Analog Front End (AFE) for high-sensitivity detection of reflected NIR light from muscle tissue.
-* **Early Miniaturization:** Prototyped the wireless charging system (WPC) within a limited footprint.
+| <img src="https://github.com/user-attachments/assets/5f431d1f-eb61-44d4-ad2f-0301b3c3eb6c" width="450"> | **[Validation Focus]** <br><br> • **Core Tech:** Integration of NIR LED source and PD detectors. <br> • **Architecture:** Early-stage PCB for signal processing validation. <br> • **WPC Integration:** First successful integration of the wireless charging coil. |
 
 ---
 
 ## 📐 Phase 2: Hardware Optimization & Development
+To achieve a compact wearable size, the design was optimized using a **Rigid-Flex PCB** structure. This stage involved rigorous RF tuning and power management optimization.
 
-To achieve a wearable form factor, I transitioned the design to a **Rigid-Flex PCB** structure, significantly reducing the device volume while improving mechanical reliability.
-
-| Developed Hardware & Tuning | Development Specs |
+| Development & Tuning | Development Specs |
 | :--- | :--- |
-| ![Image](https://github.com/user-attachments/assets/5f431d1f-eb61-44d4-ad2f-0301b3c3eb6c) | **[Optimization Keys]** <br><br> • **Form Factor:** Transitioned to Rigid-Flex PCB for 3D fit. <br> • **RF Performance:** BLE antenna tuning and Wi-Fi radiation optimization. <br> • **Power Management:** Achieved >5 hours of continuous operation via BLE. |
-
-### 🔍 Engineering Highlights:
-* **Antenna Optimization:** Conducted VNA measurements (as seen in my RF verification section) to ensure stable BLE connectivity despite the compact enclosure and proximity to the human body.
-* **WPC Tuning:** Fine-tuned the wireless charging resonant frequency for high power-transfer efficiency through the enclosure.
+| <img src="https://github.com/user-attachments/assets/3dceb73d-b276-42f3-b70e-b46a8689c06e" width="450"> | **[Optimization Keys]** <br><br> • **Form Factor:** Transitioned to Rigid-Flex PCB for 3D ergonomic fit. <br> • **RF Performance:** BLE antenna tuning and Wi-Fi radiation optimization. <br> • **Power:** Achieved >5 hours of battery life with optimized BLE throughput. |
 
 ---
 
 ## 📦 Phase 3: Final Product & Mass Production
-
-The project culminated in a successful global launch through Kickstarter and Indiegogo, meeting all mass-production quality standards.
+The project culminated in a high-quality commercial product, successfully passing all regulatory certifications and launching on global crowdfunding platforms.
 
 | Final Commercial Product | Launch Details |
 | :--- | :--- |
-| ![Image](https://github.com/user-attachments/assets/01b484f3-ced6-4725-bef9-f779a06a443d) | **[Commercial Success]** <br><br> • **Certification:** Passed EMI/EMC (KN32) and RF certifications. <br> • **Mass Production:** Optimized DFM (Design for Manufacturing) to reduce assembly error. <br> • **Platform:** Launched as "REPACE" / "CLOMP". |
+| <img src="https://github.com/user-attachments/assets/01b484f3-ced6-4725-bef9-f779a06a443d" width="450"> | **[Commercial Success]** <br><br> • **Certification:** Passed EMI/EMC (KN32) and RF certifications. <br> • **Mass Production:** Optimized DFM (Design for Manufacturing) for assembly line efficiency. <br> • **Market:** Launched as "REPACE" / "CLOMP". |
 
-### 🔍 Engineering Highlights:
+### 🔍 Engineering Highlights
+* **Signal Integrity:** Designed the Analog Front End (AFE) for high-sensitivity detection of reflected NIR light from muscle tissue.
 * **Reliability Engineering:** Designed the system to withstand motion artifacts during high-intensity exercise.
 * **Regulatory Compliance:** Implemented shielding and decoupling strategies to ensure a clear margin below EMI limit lines.
 
