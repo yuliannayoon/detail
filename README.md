@@ -255,4 +255,13 @@ I implemented a series of hardware-level optimizations to secure a safe margin f
 
 ### 🛠 Applied Solutions
 1. **Decoupling Strategy:** Optimized capacitor placement near high-speed switching nodes.
-2. **Filtering:** Integrated Ferrite beads and
+2. **Filtering:** Integrated Ferrite beads and LC filters on sensitive signal paths.
+3. **Shielding:** Improved contact resistance of the module's enclosure for enhanced EMI shielding.
+
+---
+
+## 🛠 Technical Stack Summary
+* **Low Power Design:** System-level Power Optimization (**3.7V / 300mAh Li-ion**), Battery Management (BMS).
+* **Wireless Tech:** BLE (nRF52 series), Wireless Charging (Qi-standard, 1hr Fast Charge).
+* **Hardware Design:** Rigid-Flex PCB, Microstrip/Impedance Control, DFM (Design for Manufacturing).
+* **Equipment:** VNA (Keysight PNA), EMI Receiver, Spectrum Analyzer.
