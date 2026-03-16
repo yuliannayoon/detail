@@ -95,7 +95,7 @@ In the early stage, the focus was on validating the fNIRS (Functional Near-Infra
 
 | Engineering Prototype (Internal) | Hardware Analysis |
 | :--- | :--- |
-| <img src="https://github.com/user-attachments/assets/5f431d1f-eb61-44d4-ad2f-0301b3c3eb6c" width="450"> | **[Validation Focus]** <br><br> • **Core Tech:** Integration of NIR LED source and PD detectors. <br> • **Architecture:** Early-stage PCB for signal processing validation. <br> • **WPC Integration:** First successful integration of the wireless charging coil. |
+|  <img src="https://github.com/user-attachments/assets/3dceb73d-b276-42f3-b70e-b46a8689c06e" width="450"> | **[Validation Focus]** <br><br> • **Core Tech:** Integration of NIR LED source and PD detectors. <br> • **Architecture:** Early-stage PCB for signal processing validation. <br> • **WPC Integration:** First successful integration of the wireless charging coil. |
 
 ---
 
@@ -104,7 +104,7 @@ To achieve a compact wearable size, the design was optimized using a **Rigid-Fle
 
 | Development & Tuning | Development Specs |
 | :--- | :--- |
-| <img src="https://github.com/user-attachments/assets/3dceb73d-b276-42f3-b70e-b46a8689c06e" width="450"> | **[Optimization Keys]** <br><br> • **Form Factor:** Transitioned to Rigid-Flex PCB for 3D ergonomic fit. <br> • **RF Performance:** BLE antenna tuning and Wi-Fi radiation optimization. <br> • **Power:** Achieved >5 hours of battery life with optimized BLE throughput. |
+| <img src="https://github.com/user-attachments/assets/5f431d1f-eb61-44d4-ad2f-0301b3c3eb6c" width="450"> | **[Optimization Keys]** <br><br> • **Form Factor:** Transitioned to Rigid-Flex PCB for 3D ergonomic fit. <br> • **RF Performance:** BLE antenna tuning and Wi-Fi radiation optimization. <br> • **Power:** Achieved >5 hours of battery life with optimized BLE throughput. |
 
 ---
 
