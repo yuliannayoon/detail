@@ -1,5 +1,5 @@
 
-# 🚀 Hardware Engineering Portfolio
+# 🚀 Portfolio
 ### Specialized in Wearable Tech, RF Optimization, and EMI/EMC Troubleshooting
 
 ## 📑 Executive Summary
