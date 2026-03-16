@@ -135,36 +135,32 @@ This section details the PCB layout strategy implemented to achieve optimal impe
 * **Parasitic Minimization:** Component placement and transition points (e.g., from connector to trace) were optimized to reduce parasitic inductance and capacitance, critical for maintaining signal integrity at microwave frequencies.
 * **Ground Plane Integrity:** A solid, unbroken reference ground plane was maintained directly beneath the RF signal traces to provide a clear return path and improve shielding.
 
-## 🛡️ EMI/EMC Troubleshooting & Radiated Emission Reduction
+## 🛡️ EMI/EMC Troubleshooting: Radiated Emission (RE) Reduction
 
-This section demonstrates my ability to diagnose EMI issues and implement effective hardware mitigation strategies to meet regulatory standards (KN32 Class A/B). The project involved reducing radiated emissions from a fully assembled LD PD (Laser Diode Photodiode) module.
+This section demonstrates the process of diagnosing and mitigating Radiated Emission (RE) issues to meet **KN32 Class A/B** regulatory standards. The goal was to reduce noise peaks and ensure a stable operating margin for the LD PD module.
 
-### 🔍 Challenge: Non-Compliant Emission Levels
+### 🔍 1. Initial Status (Old Board)
+The initial testing showed several noise spikes, particularly in the lower frequency range, which reduced the overall margin against the KN32 Class B limit.
 
-Initially, the fully assembled LD PD module exhibited radiated emission levels dangerously close to the **KN32 Class B** limit line in the 100-200 MHz range. To ensure product reliability and regulatory compliance, emission reduction was critical.
-
-| Pre-Mitigation RE Test Plot | Initial Performance Analysis |
+| Pre-Mitigation RE Test (Old) | Technical Analysis |
 | :--- | :--- |
-| ![Pre-Mitigation EMI Plot](https://github.com/user-attachments/assets/PLEASE_INSERT_PRE_MITIGATION_IMAGE_URL_HERE) | **[Baseline Measurements]** <br><br> • **Standard:** KN32 Class A/B RE_QP <br> • **Frequency Range:** 30 MHz - 1 GHz <br> • **Issue:** High emissions (>20 dBµV/m) highlighted in the 100-200 MHz band, approaching Class B limit. |
+| <img src="https://github.com/user-attachments/assets/aafe484b-423c-4c0e-a745-dabe4d648b89" width="100%"> | **[Baseline Issues]** <br><br> • **Limit Standard:** KN32 Class A/B <br> • **Observation:** Unstable noise floor with multiple harmonic spikes. <br> • **Risk:** Insufficient margin for mass production reliability. |
 
-### 🛠 Mitigation Strategy
+---
 
-To address the identified emission peaks, I implemented the following noise suppression techniques:
+### 🔍 2. Optimized Status (New Board)
+By implementing hardware-level mitigation strategies, the emission profile was significantly flattened, securing a much wider margin across the 30 MHz - 1 GHz spectrum.
 
-1.  **Shielding Enhancement:** Verified and improved the grounding contact of the module's metallic enclosure to enhance Faraday cage effectiveness against radiated coupling.
-2.  **Filtering & Decoupling:** Added decoupling capacitors close to the noise-generating components and introduced ferrite beads on signal lines to suppress common-mode and differential-mode noise.
-3.  **Layout Optimization:** Adjusted critical high-speed signal traces to minimize loop areas and reduce unintended loop antenna effects.
-
-### 🔍 Results: Successful Compliance & Noise Reduction
-
-After implementing the mitigation strategies, the module was re-tested. The post-mitigation plot shows a significant reduction in emission levels, ensuring compliance with a generous margin.
-
-| Post-Mitigation RE Test Plot | Post-Performance Analysis |
+| Post-Mitigation RE Test (New) | Improvements & Results |
 | :--- | :--- |
-| ![Post-Mitigation EMI Plot](https://github.com/user-attachments/assets/PLEASE_INSERT_POST_MITIGATION_IMAGE_URL_HERE) | **[Final Measurements]** <br><br> • **Status:** **PASS** (Compliant with KN32 Class A & B) <br> • **Improvement:** Effective suppression of peaks across the entire 100-200 MHz band. <br> • **Margin:** Achieved a substantial margin below all limits, guaranteeing stable operation. |
+| <img src="https://github.com/user-attachments/assets/5bc9edeb-b79a-4988-a19c-0eeb6d53c23a" width="100%"> | **[Key Improvements]** <br><br> • **Status:** **PASS** (Stable Compliance) <br> • **Result:** Significant reduction in broadband noise and harmonic peaks. <br> • **Margin:** Achieved a reliable safety margin below the Class B limit. |
+
+### 🛠 Applied Mitigation Techniques
+To achieve these results, the following hardware optimizations were performed:
+1. **Decoupling Strategy:** Optimized capacitor placement and values near the high-speed switching nodes to suppress noise at the source.
+2. **Filtering:** Integrated ferrite beads and LC filters on sensitive signal paths to block unintended RF radiation.
+3. **Grounding & Shielding:** Enhanced the PCB ground plane integrity and improved the contact resistance of the module's shielding enclosure.
 
 ### 🛠 Tools & Expertise
-* **Equipment:** EMI Receiver / Spectrum Analyzer, Anechoic Chamber, Biconical Antenna, Log-Periodic Antenna
-* **Skills:** EMI Diagnosis, Noise Source Identification, PCB Shielding/Filtering Design, EMC Troubleshooting
-
-
+* **Equipment:** EMI Receiver, Anechoic Chamber, Spectrum Analyzer
+* **Skills:** EMI/EMC Troubleshooting, Noise Path Analysis, PCB Layout Optimization for Signal Integrity
