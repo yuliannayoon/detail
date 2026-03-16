@@ -10,8 +10,6 @@
 
 # 1.Wearable Muscle Oxygen Monitoring Device 
 
-## Project Summary
-
 This project focused on developing a wearable device that measures muscle oxygen consumption using fNIRS technology.  
 The goal was to miniaturize a concept prototype into a compact wearable device capable of real-time monitoring with BLE connectivity and at least 5 hours of battery operation.  
 A wireless charging system was integrated to improve usability and enable continuous data transmission to a mobile application.  
