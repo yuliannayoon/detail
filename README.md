@@ -38,29 +38,6 @@ The processed data is transmitted via BLE to a mobile application for real-time 
 
 ---
 
-## System Architecture
-
-### Sensor Module
-- NIR LED light source
-- Photodiode detector
-
-### Analog Front End
-- Signal amplification
-- ADC conversion
-
-### Processing
-- MCU signal processing
-- SmO₂ calculation algorithm
-
-### Connectivity
-- BLE communication
-- Mobile application interface
-
-### Power System
-- Rechargeable battery
-- Wireless charging system
-
----
 
 ## Key Challenges
 
