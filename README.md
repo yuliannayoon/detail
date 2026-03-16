@@ -134,3 +134,5 @@ This section details the PCB layout strategy implemented to achieve optimal impe
 * **Controlled Impedance Traces:** Trace widths and gaps were precisely calculated based on the PCB stack-up to ensure a continuous 50 $\Omega$ characteristic impedance. This minimizes signal reflection at impedance discontinuities.
 * **Parasitic Minimization:** Component placement and transition points (e.g., from connector to trace) were optimized to reduce parasitic inductance and capacitance, critical for maintaining signal integrity at microwave frequencies.
 * **Ground Plane Integrity:** A solid, unbroken reference ground plane was maintained directly beneath the RF signal traces to provide a clear return path and improve shielding.
+
+
