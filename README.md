@@ -109,7 +109,7 @@ In the early stages, the focus was on validating the fNIRS (Functional Near-Infr
 
 | Engineering Prototype (Internal View) | Hardware Analysis |
 | :--- | :--- |
-| ![Image](https://github.com/user-attachments/assets/cf8ba69c-62fe-44d4-ab09-b9655ad20ba0) width="450"> | **[Validation Focus]** <br><br> • **Core Tech:** Integration of NIR LED source and PD detectors. <br> • **Architecture:** Rigid PCB for initial signal processing validation. <br> • **Testing:** Wireless charging coil integration and battery discharge testing. |
+| ![Image](https://github.com/user-attachments/assets/cf8ba69c-62fe-44d4-ab09-b9655ad20ba0) | **[Validation Focus]** <br><br> • **Core Tech:** Integration of NIR LED source and PD detectors. <br> • **Architecture:** Rigid PCB for initial signal processing validation. <br> • **Testing:** Wireless charging coil integration and battery discharge testing. |
 
 ### 🔍 Engineering Highlights:
 * **Signal Integrity:** Designed the Analog Front End (AFE) for high-sensitivity detection of reflected NIR light from muscle tissue.
@@ -123,7 +123,7 @@ To achieve a wearable form factor, I transitioned the design to a **Rigid-Flex P
 
 | Developed Hardware & Tuning | Development Specs |
 | :--- | :--- |
-| ![Image](https://github.com/user-attachments/assets/5f431d1f-eb61-44d4-ad2f-0301b3c3eb6c) width="450"> | **[Optimization Keys]** <br><br> • **Form Factor:** Transitioned to Rigid-Flex PCB for 3D fit. <br> • **RF Performance:** BLE antenna tuning and Wi-Fi radiation optimization. <br> • **Power Management:** Achieved >5 hours of continuous operation via BLE. |
+| ![Image](https://github.com/user-attachments/assets/5f431d1f-eb61-44d4-ad2f-0301b3c3eb6c) | **[Optimization Keys]** <br><br> • **Form Factor:** Transitioned to Rigid-Flex PCB for 3D fit. <br> • **RF Performance:** BLE antenna tuning and Wi-Fi radiation optimization. <br> • **Power Management:** Achieved >5 hours of continuous operation via BLE. |
 
 ### 🔍 Engineering Highlights:
 * **Antenna Optimization:** Conducted VNA measurements (as seen in my RF verification section) to ensure stable BLE connectivity despite the compact enclosure and proximity to the human body.
