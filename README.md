@@ -135,7 +135,7 @@ This section details the PCB layout strategy implemented to achieve optimal impe
 * **Parasitic Minimization:** Component placement and transition points (e.g., from connector to trace) were optimized to reduce parasitic inductance and capacitance, critical for maintaining signal integrity at microwave frequencies.
 * **Ground Plane Integrity:** A solid, unbroken reference ground plane was maintained directly beneath the RF signal traces to provide a clear return path and improve shielding.
 
-## 🛡️ EMI/EMC Troubleshooting: Radiated Emission (RE) Reduction
+## 4.🛡️ EMI/EMC Troubleshooting: Radiated Emission (RE) Reduction
 
 This section demonstrates the process of diagnosing and mitigating Radiated Emission (RE) issues to meet **KN32 Class A/B** regulatory standards. The goal was to reduce noise peaks and ensure a stable operating margin for the LD PD module.
 
