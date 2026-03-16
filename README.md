@@ -183,7 +183,7 @@ The initial testing showed several noise spikes, particularly in the lower frequ
 
 | Pre-Mitigation RE Test (Old) | Technical Analysis |
 | :--- | :--- |
-| <img src="https://github.com/user-attachments/assets/aafe484b-423c-4c0e-a745-dabe4d648b89" width="100%"> | **[Baseline Issues]** <br><br> • **Limit Standard:** KN32 Class A/B <br> • **Observation:** Unstable noise floor with multiple harmonic spikes. <br> • **Risk:** Insufficient margin for mass production reliability. |
+| <img src="https://github.com/user-attachments/assets/5bc9edeb-b79a-4988-a19c-0eeb6d53c23a" width="100%"> | **[Baseline Issues]** <br><br> • **Limit Standard:** KN32 Class A/B <br> • **Observation:** Unstable noise floor with multiple harmonic spikes. <br> • **Risk:** Insufficient margin for mass production reliability. |
 
 ---
 
@@ -192,7 +192,7 @@ By implementing hardware-level mitigation strategies, the emission profile was s
 
 | Post-Mitigation RE Test (New) | Improvements & Results |
 | :--- | :--- |
-| <img src="https://github.com/user-attachments/assets/5bc9edeb-b79a-4988-a19c-0eeb6d53c23a" width="100%"> | **[Key Improvements]** <br><br> • **Status:** **PASS** (Stable Compliance) <br> • **Result:** Significant reduction in broadband noise and harmonic peaks. <br> • **Margin:** Achieved a reliable safety margin below the Class B limit. |
+|  <img src="https://github.com/user-attachments/assets/aafe484b-423c-4c0e-a745-dabe4d648b89" width="100%"> | **[Key Improvements]** <br><br> • **Status:** **PASS** (Stable Compliance) <br> • **Result:** Significant reduction in broadband noise and harmonic peaks. <br> • **Margin:** Achieved a reliable safety margin below the Class B limit. |
 
 ### 🛠 Applied Mitigation Techniques
 To achieve these results, the following hardware optimizations were performed:
