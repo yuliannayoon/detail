@@ -206,7 +206,7 @@ I am a Hardware Engineer with expertise in taking complex medical and wearable d
 ### 🔋 Low Power Design & Energy Management
 To achieve a slim wearable form factor, I optimized the system to operate reliably on a limited battery capacity while maintaining continuous data streaming.
 
-* **Battery Management:** Integrated a **3.7V / 300mAh Li-Po battery**, balancing device weight and capacity.
+* **Battery Management:** Integrated a **3.7V / 300mAh Lithium-ion (Li-ion) battery**, balancing device weight and capacity.
 * **Power Optimization:** Implemented system-wide low-power modes, achieving **≈5 hours of continuous operation** during real-time fNIRS sensing and BLE communication.
 * **Efficient Charging:** Designed a **Wireless Charging** system that achieves a full charge in **approximately 1 hour**, significantly enhancing user convenience.
 
@@ -255,13 +255,4 @@ I implemented a series of hardware-level optimizations to secure a safe margin f
 
 ### 🛠 Applied Solutions
 1. **Decoupling Strategy:** Optimized capacitor placement near high-speed switching nodes.
-2. **Filtering:** Integrated Ferrite beads and LC filters on sensitive signal paths.
-3. **Shielding:** Improved contact resistance of the module's enclosure for enhanced EMI shielding.
-
----
-
-## 🛠 Technical Stack Summary
-* **Low Power Design:** System-level Power Optimization (3.7V/300mAh), Battery Management (BMS).
-* **Wireless Tech:** BLE (nRF52 series), Wireless Charging (Qi-standard, 1hr Fast Charge).
-* **Hardware Design:** Rigid-Flex PCB, Microstrip/Impedance Control, DFM (Design for Manufacturing).
-* **Equipment:** VNA (Keysight PNA), EMI Receiver, Spectrum Analyzer.
+2. **Filtering:** Integrated Ferrite beads and
