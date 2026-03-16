@@ -123,7 +123,7 @@ To achieve a wearable form factor, I transitioned the design to a **Rigid-Flex P
 
 | Developed Hardware & Tuning | Development Specs |
 | :--- | :--- |
-| <img src="https://github.com/user-attachments/assets/INSERT_IMG_2597_URL" width="450"> | **[Optimization Keys]** <br><br> • **Form Factor:** Transitioned to Rigid-Flex PCB for 3D fit. <br> • **RF Performance:** BLE antenna tuning and Wi-Fi radiation optimization. <br> • **Power Management:** Achieved >5 hours of continuous operation via BLE. |
+| ![Image](https://github.com/user-attachments/assets/5f431d1f-eb61-44d4-ad2f-0301b3c3eb6c) width="450"> | **[Optimization Keys]** <br><br> • **Form Factor:** Transitioned to Rigid-Flex PCB for 3D fit. <br> • **RF Performance:** BLE antenna tuning and Wi-Fi radiation optimization. <br> • **Power Management:** Achieved >5 hours of continuous operation via BLE. |
 
 ### 🔍 Engineering Highlights:
 * **Antenna Optimization:** Conducted VNA measurements (as seen in my RF verification section) to ensure stable BLE connectivity despite the compact enclosure and proximity to the human body.
