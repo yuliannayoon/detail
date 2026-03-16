@@ -86,20 +86,6 @@ The processed data is transmitted via BLE to a mobile application for real-time 
 
 ---
 
-## Proof of Result
-
-The product was successfully launched through crowdfunding platforms and prepared for mass production.
-
-**Kickstarter Launch**  
-https://www.kickstarter.com/projects/763656766/repace-the-revolutionary-scientific-workout-solution?ref=discovery&term=repace&total_hits=37&category_id=341  
-
-**Indiegogo Launch**  
-https://www.indiegogo.com/en/projects/clomp/clomp-run-easy-burn-more-body-fat
-
-This project demonstrated the successful commercialization of a wearable fNIRS-based muscle oxygen monitoring device.
-
-
-
 # 🏃 Wearable Muscle Oxygen Monitoring Device (SmO₂ Monitor)
 
 This project showcases the end-to-end hardware development process of an fNIRS-based wearable device, evolving from a functional engineering prototype to a mass-produced consumer product.
@@ -140,6 +126,18 @@ The project culminated in a high-quality commercial product, successfully passin
 * **Hardware:** Rigid-Flex PCB Design, BLE (nRF52 series), fNIRS Sensor Integration.
 * **Power:** Wireless Charging (Qi standard), Li-Po Battery Management.
 * **Tools:** VNA (Keysight PNA), EMI Receiver, EasyEDA/Altium.
+
+## Proof of Result
+
+The product was successfully launched through crowdfunding platforms and prepared for mass production.
+
+**Kickstarter Launch**  
+https://www.kickstarter.com/projects/763656766/repace-the-revolutionary-scientific-workout-solution?ref=discovery&term=repace&total_hits=37&category_id=341  
+
+**Indiegogo Launch**  
+https://www.indiegogo.com/en/projects/clomp/clomp-run-easy-burn-more-body-fat
+
+This project demonstrated the successful commercialization of a wearable fNIRS-based muscle oxygen monitoring device.
 
 
 
