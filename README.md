@@ -8,7 +8,7 @@
 
 ---
 
-# 1.Wearable Muscle Oxygen Monitoring Device (fNIRS-based)
+# 1.Wearable Muscle Oxygen Monitoring Device 
 
 ## Project Summary
 
