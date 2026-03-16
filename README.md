@@ -127,7 +127,7 @@ This section details the PCB layout strategy implemented to achieve optimal impe
 
 | PCB Design Snapshot | Design Specifications |
 | :--- | :--- |
-| <img src="https://github.com/user-attachments/assets/85e5ba37-4415-4dbf-b432-09d0055749a2" width="450" alt="RF Layout Design"> | **[Design Parameters]** <br><br> • **Target Frequency:** 2.4 GHz ISM <br> • **Trace Type:** Microstrip Line <br> • **Characteristic Impedance ($Z_0$):** 50 $\Omega$ Controlled <br> • **Substrate:** FR-4 |
+| <img src="https://github.com/user-attachments/assets/85e5ba37-4415-4dbf-b432-09d0055749a2" width="450" alt="RF Layout Design"> | **[Design Parameters]** <br><br> • **Target Frequency:** 2.4 GHz ISM <br> • **Trace Type:** Microstrip Line <br> • **Characteristic Impedance ($Z_0$):** 50 ohm Controlled <br> • **Substrate:** FR-4 |
 
 ### 🔍 Engineering Highlights
 
