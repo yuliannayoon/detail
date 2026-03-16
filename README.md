@@ -86,7 +86,7 @@ The processed data is transmitted via BLE to a mobile application for real-time 
 
 ---
 
-# 🏃 Wearable Muscle Oxygen Monitoring Device (SmO₂ Monitor)
+# 1.🏃 Wearable Muscle Oxygen Monitoring Device 
 
 This project showcases the end-to-end hardware development process of an fNIRS-based wearable device, evolving from a functional engineering prototype to a mass-produced consumer product.
 
