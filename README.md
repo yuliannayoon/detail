@@ -28,10 +28,6 @@ The final product was successfully prepared for mass production quality and laun
 - Integrate **wireless charging capability**  
 - Prepare the system for **mass production quality**
 
----
-
-## Overview
-
 
 ---
 
