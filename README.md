@@ -109,7 +109,7 @@ In the early stages, the focus was on validating the fNIRS (Functional Near-Infr
 
 | Engineering Prototype (Internal View) | Hardware Analysis |
 | :--- | :--- |
-| ![Image](https://github.com/user-attachments/assets/cf8ba69c-62fe-44d4-ab09-b9655ad20ba0) | **[Validation Focus]** <br><br> • **Core Tech:** Integration of NIR LED source and PD detectors. <br> • **Architecture:** Rigid PCB for initial signal processing validation. <br> • **Testing:** Wireless charging coil integration and battery discharge testing. |
+| ![Image](https://github.com/user-attachments/assets/cf8ba69c-62fe-44d4-ab09-b9655ad20ba0) width="450"> | **[Validation Focus]** <br><br> • **Core Tech:** Integration of NIR LED source and PD detectors. <br> • **Architecture:** Rigid PCB for initial signal processing validation. <br> • **Testing:** Wireless charging coil integration and battery discharge testing. |
 
 ### 🔍 Engineering Highlights:
 * **Signal Integrity:** Designed the Analog Front End (AFE) for high-sensitivity detection of reflected NIR light from muscle tissue.
