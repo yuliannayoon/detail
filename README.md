@@ -113,7 +113,6 @@ https://www.indiegogo.com/en/projects/clomp/clomp-run-easy-burn-more-body-fat
 
 This project demonstrated the successful commercialization of a wearable fNIRS-based muscle oxygen monitoring device.
 
-https://github.com/yuliannayoon/impedance_matching/issues/2#issue-4079400928
 
 
 ## 2. 📡 RF Hardware Testing & Validation
