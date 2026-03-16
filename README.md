@@ -212,8 +212,8 @@ To achieve a slim wearable form factor, I optimized the system to operate reliab
 
 | Phase | Prototype & Development | Engineering Key Points |
 | :--- | :--- | :--- |
-| **01. Concept** | <img src="https://github.com/user-attachments/assets/5f431d1f-eb61-44d4-ad2f-0301b3c3eb6c" width="400"> | **Validation:** Confirmed fNIRS sensor accuracy and initial Wireless Power Consortium (WPC) coil integration. |
-| **02. Optimization** | <img src="https://github.com/user-attachments/assets/3dceb73d-b276-42f3-b70e-b46a8689c06e" width="400"> | **Miniaturization:** Transitioned to **Rigid-Flex PCB** to fit a complex ergonomic housing while maintaining BLE signal integrity. |
+| **01. Concept** | <img src="https://github.com/user-attachments/assets/3dceb73d-b276-42f3-b70e-b46a8689c06e" width="400"> | **Validation:** Confirmed fNIRS sensor accuracy and initial Wireless Power Consortium (WPC) coil integration. |
+| **02. Optimization** | <img src="https://github.com/user-attachments/assets/5f431d1f-eb61-44d4-ad2f-0301b3c3eb6c" width="400"> | **Miniaturization:** Transitioned to **Rigid-Flex PCB** to fit a complex ergonomic housing while maintaining BLE signal integrity. |
 | **03. Final Product** | <img src="https://github.com/user-attachments/assets/01b484f3-ced6-4725-bef9-f779a06a443d" width="400"> | **Market Ready:** Successfully launched globally via Kickstarter and Indiegogo after passing all mass production quality checks. |
 
 ### 🔍 Engineering Highlights
