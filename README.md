@@ -40,7 +40,6 @@ https://www.kickstarter.com/projects/763656766/repace-the-revolutionary-scientif
 **Indiegogo Launch**  
 https://www.indiegogo.com/en/projects/clomp/clomp-run-easy-burn-more-body-fat
 
-The device provides real-time monitoring of muscle oxygen saturation for sports performance analysis.
 
 ---
 
