@@ -99,6 +99,58 @@ https://www.indiegogo.com/en/projects/clomp/clomp-run-easy-burn-more-body-fat
 This project demonstrated the successful commercialization of a wearable fNIRS-based muscle oxygen monitoring device.
 
 
+# 🏃 Wearable Muscle Oxygen Monitoring Device (SmO₂ Monitor)
+
+This project showcases the end-to-end hardware development process of an fNIRS-based wearable device, evolving from a functional engineering prototype to a mass-produced consumer product.
+
+## 🚀 Phase 1: Engineering Prototype & Hardware Validation
+
+In the early stages, the focus was on validating the fNIRS (Functional Near-Infrared Spectroscopy) sensor accuracy and power delivery.
+
+| Engineering Prototype (Internal View) | Hardware Analysis |
+| :--- | :--- |
+| <img src="https://github.com/user-attachments/assets/INSERT_IMG_3832_URL" width="450"> | **[Validation Focus]** <br><br> • **Core Tech:** Integration of NIR LED source and PD detectors. <br> • **Architecture:** Rigid PCB for initial signal processing validation. <br> • **Testing:** Wireless charging coil integration and battery discharge testing. |
+
+### 🔍 Engineering Highlights:
+* **Signal Integrity:** Designed the Analog Front End (AFE) for high-sensitivity detection of reflected NIR light from muscle tissue.
+* **Early Miniaturization:** Prototyped the wireless charging system (WPC) within a limited footprint.
+
+---
+
+## 📐 Phase 2: Hardware Optimization & Development
+
+To achieve a wearable form factor, I transitioned the design to a **Rigid-Flex PCB** structure, significantly reducing the device volume while improving mechanical reliability.
+
+| Developed Hardware & Tuning | Development Specs |
+| :--- | :--- |
+| <img src="https://github.com/user-attachments/assets/INSERT_IMG_2597_URL" width="450"> | **[Optimization Keys]** <br><br> • **Form Factor:** Transitioned to Rigid-Flex PCB for 3D fit. <br> • **RF Performance:** BLE antenna tuning and Wi-Fi radiation optimization. <br> • **Power Management:** Achieved >5 hours of continuous operation via BLE. |
+
+### 🔍 Engineering Highlights:
+* **Antenna Optimization:** Conducted VNA measurements (as seen in my RF verification section) to ensure stable BLE connectivity despite the compact enclosure and proximity to the human body.
+* **WPC Tuning:** Fine-tuned the wireless charging resonant frequency for high power-transfer efficiency through the enclosure.
+
+---
+
+## 📦 Phase 3: Final Product & Mass Production
+
+The project culminated in a successful global launch through Kickstarter and Indiegogo, meeting all mass-production quality standards.
+
+| Final Commercial Product | Launch Details |
+| :--- | :--- |
+| <img src="https://github.com/user-attachments/assets/INSERT_IMG_6507_URL" width="450"> | **[Commercial Success]** <br><br> • **Certification:** Passed EMI/EMC (KN32) and RF certifications. <br> • **Mass Production:** Optimized DFM (Design for Manufacturing) to reduce assembly error. <br> • **Platform:** Launched as "REPACE" / "CLOMP". |
+
+### 🔍 Engineering Highlights:
+* **Reliability Engineering:** Designed the system to withstand motion artifacts during high-intensity exercise.
+* **Regulatory Compliance:** Implemented shielding and decoupling strategies to ensure a clear margin below EMI limit lines.
+
+---
+
+## 🛠 Tech Stack Summary
+* **Hardware:** Rigid-Flex PCB Design, BLE (nRF52 series), fNIRS Sensor Integration.
+* **Power:** Wireless Charging (Qi standard), Li-Po Battery Management.
+* **Tools:** VNA (Keysight PNA), EMI Receiver, EasyEDA/Altium.
+
+
 
 ## 2. 📡 RF Hardware Testing & Validation
 
