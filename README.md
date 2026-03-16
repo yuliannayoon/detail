@@ -138,7 +138,7 @@ The project culminated in a successful global launch through Kickstarter and Ind
 
 | Final Commercial Product | Launch Details |
 | :--- | :--- |
-| <img src="https://github.com/user-attachments/assets/INSERT_IMG_6507_URL" width="450"> | **[Commercial Success]** <br><br> • **Certification:** Passed EMI/EMC (KN32) and RF certifications. <br> • **Mass Production:** Optimized DFM (Design for Manufacturing) to reduce assembly error. <br> • **Platform:** Launched as "REPACE" / "CLOMP". |
+| ![Image](https://github.com/user-attachments/assets/01b484f3-ced6-4725-bef9-f779a06a443d) | **[Commercial Success]** <br><br> • **Certification:** Passed EMI/EMC (KN32) and RF certifications. <br> • **Mass Production:** Optimized DFM (Design for Manufacturing) to reduce assembly error. <br> • **Platform:** Launched as "REPACE" / "CLOMP". |
 
 ### 🔍 Engineering Highlights:
 * **Reliability Engineering:** Designed the system to withstand motion artifacts during high-intensity exercise.
