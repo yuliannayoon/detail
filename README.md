@@ -39,10 +39,11 @@ To achieve a slim wearable form factor, I optimized the system to operate reliab
 To ensure reliable wireless communication in various environments, I performed deep-dive RF analysis and impedance matching.
 
 ### 📡 S11 Parameter Verification (2.4 GHz)
-Optimized 2.4GHz antenna matching using a VNA to ensure maximum signal range and minimize energy loss
+Optimized 2.4GHz antenna matching using a VNA to ensure maximum signal range and minimize energy loss.
+
 | Measurement Plot | Technical Analysis |
 | :--- | :--- |
-| ![VNA Return Loss](https://github.com/user-attachments/assets/b7801090-8495-43df-86b6-4f3185360358) | **Result:** **-18.38 dB** Return Loss at 2.45 GHz.<br>**Insight:** Confirms that >98% of power is successfully transmitted. Measurement ripples >5GHz were identified as artifacts from the non-chamber environment. |
+| ![VNA Return Loss](https://github.com/user-attachments/assets/b7801090-8495-43df-86b6-4f3185360358) | **Result:** **-18.38 dB** Return Loss at 2.45 GHz.<br>**Insight:** Confirms **>98%** power transmission. Ripples above **5 GHz** are **measurement artifacts** from cable/connector limitations, not the antenna's intrinsic performance. |
 
 ### 📐 Precision PCB Layout Design
 The layout was engineered to maintain a strict 50 $\Omega$ environment to prevent signal loss.
