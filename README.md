@@ -54,7 +54,7 @@ The layout was engineered to maintain a strict 50 $\Omega$ environment to preven
 
 ---
 
-##3. 🛡️ EMI/EMC Troubleshooting & Signal Integrity
+## 🛡️ EMI/EMC Troubleshooting & Signal Integrity
 **Challenge:** The initial design exhibited harmonic spikes near the **KN32 Class B** limit, risking certification failure and sensitive signal interference in the fNIRS module.
 
 ### 🔍 Diagnosis & Mitigation
@@ -66,10 +66,14 @@ I implemented high-precision hardware optimizations to stabilize the mixed-signa
 | **After (New)** | <img src="https://github.com/user-attachments/assets/aafe484b-423c-4c0e-a745-dabe4d648b89" width="100%"> | **PASS:** Successfully suppressed harmonic peaks by optimizing the return path and signal isolation. |
 
 ### 🛠 Applied Solutions
-1. **Stack-up Optimization (4-Layer Migration):** Upgraded the Photodiode/OP-AMP feedback loop from 2 to 4 layers. By providing a dedicated **Ground Plane**, I minimized loop inductance and stabilized the sensitive analog feedback path against external EMI.
-2. **Clock Signal Isolation:** Re-routed high-speed clock lines on the MCU and ASIC boards to ensure maximum physical isolation from power signals, effectively mitigating **cross-talk** and harmonic emissions.
-3. **RF Radiation Pattern Optimization:** Relocated the Wi-Fi module to the top of the PCB and adjusted the placement to ensure the antenna radiates outward. This solved mechanical interference issues and optimized the **Radiation Pattern**, reducing internal EMI reflections.
+1. **Stack-up Optimization (4-Layer Migration):** Upgraded the Photodiode/OP-AMP feedback loop from a 2-layer to a **4-layer stack-up**. By securing a dedicated **Reference Ground Plane**, I minimized loop inductance and stabilized the sensitive analog feedback path against external EMI.
+2. **Clock Signal Isolation:** Re-routed high-speed clock lines on the MCU and ASIC boards to ensure maximum physical isolation from power traces, effectively mitigating **cross-talk** and harmonic emissions.
+3. **RF Radiation Pattern Optimization:** Relocated the Wi-Fi module to the PCB's top edge and re-oriented the antenna to radiate outward. This eliminated mechanical interference and minimized internal EMI reflections by optimizing the **Radiation Pattern**.
 
+---
+### 📐 Optimized Hardware Architecture
+![Optimized Board Design](https://github.com/user-attachments/assets/14caffa5-49e0-42e4-af8f-459b70e8ded9)
+*Final layout verification showcasing the improved signal isolation and component placement.*
 
 ## 🛠 Technical Stack Summary
 * **Low Power Design:** System-level Power Optimization (**3.7V / 300mAh Li-ion**), Battery Management (BMS).
