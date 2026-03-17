@@ -70,10 +70,9 @@ I implemented high-precision hardware optimizations to stabilize the mixed-signa
 2. **Clock Signal Isolation:** Re-routed high-speed clock lines on the MCU and ASIC boards to ensure maximum physical isolation from power traces, effectively mitigating **cross-talk** and harmonic emissions.
 3. **RF Radiation Pattern Optimization:** Relocated the Wi-Fi module to the PCB's top edge and re-oriented the antenna to radiate outward. This eliminated mechanical interference and minimized internal EMI reflections by optimizing the **Radiation Pattern**.
 
+<img src="https://github.com/user-attachments/assets/14caffa5-49e0-42e4-af8f-459b70e8ded9" width="400">
 ---
-### 📐 Optimized Hardware Architecture
-![Optimized Board Design](https://github.com/user-attachments/assets/14caffa5-49e0-42e4-af8f-459b70e8ded9)
-*Final layout verification showcasing the improved signal isolation and component placement.*
+
 ## 🛠 Technical Stack Summary
 * **Low Power Design:** System-level Power Optimization (**3.7V / 300mAh Li-ion**), Battery Management (BMS).
 * **Wireless Tech:** BLE (nRF52 series), Wireless Charging (Qi-standard, 1hr Fast Charge).
