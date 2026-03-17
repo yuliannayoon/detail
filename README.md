@@ -54,7 +54,7 @@ The layout was engineered to maintain a strict 50 $\Omega$ environment to preven
 
 ---
 
-##3. 🛡️ EMI/EMC Troubleshooting & Signal Integrity
+## 3. 🛡️ EMI/EMC Troubleshooting & Signal Integrity
 **Challenge:** The initial design exhibited harmonic spikes near the **KN32 Class B** limit, risking certification failure and sensitive signal interference in the fNIRS module.
 
 ### 🔍 Diagnosis & Mitigation
