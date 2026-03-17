@@ -3,13 +3,15 @@
 ### Specialized in Wearable Tech, RF Optimization, and EMI/EMC Troubleshooting
 
 ## 📑 Executive Summary
-I am a Hardware Engineer with expertise in taking complex medical and wearable devices from **initial concept to mass production**. My work focuses on miniaturization, high-sensitivity sensor integration (fNIRS), and **Low Power Design** to ensure long-term reliability and an optimal user experience in portable devices.
+I am a Hardware Engineer with expertise in taking complex medical and wearable devices from **initial concept to mass production**. My work focuses on high-density miniaturization, wireless power integration, and proprietary hardware development to ensure an optimal user experience in portable electronics.
 
 * **Key Achievement:** Enhanced user accessibility and device performance of wearable fNIRS technology, overcoming the bulkiness of existing market solutions (e.g., Moxy).
-* **Core Competencies:** Low Power System Design, Rigid-Flex PCB, RF/EMI Optimization, Mass Production Quality Control.
-
----
-
+* **Core Competencies:**
+    * **Ultra-Miniaturization:** High-density PCB design using **0.4mm pitch WLCSP** components to achieve extreme form-factor reduction.
+    * **Power & Charging:** Low-power system architecture and implementation of **Wireless Charging** for enhanced usability.
+    * **Stability & RF:** Optimization of wireless signals (RF) and **EMI/EMC troubleshooting** to ensure robust communication and certification.
+    * **Intellectual Property:** Contribution to corporate **Hardware IP** through proprietary circuit designs and innovative architectures.
+    * **Production & Quality:** **Design for Manufacturing (DFM)** and rigorous quality control for seamless mass production.
 ## 1. 🏃 Wearable Muscle Oxygen Monitoring Device
 **Project Goal:** Miniaturize a bench-top concept into a compact, BLE-enabled wearable device with a focus on power efficiency and ergonomic design.
 
