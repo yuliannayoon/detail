@@ -54,7 +54,7 @@ The layout was engineered to maintain a strict 50 $\Omega$ environment to preven
 
 ---
 
-## 🛡️ EMI/EMC Troubleshooting & Signal Integrity
+##3. 🛡️ EMI/EMC Troubleshooting & Signal Integrity
 **Challenge:** The initial design exhibited harmonic spikes near the **KN32 Class B** limit, risking certification failure and sensitive signal interference in the fNIRS module.
 
 ### 🔍 Diagnosis & Mitigation
@@ -69,6 +69,7 @@ I implemented high-precision hardware optimizations to stabilize the mixed-signa
 1. **Stack-up Optimization (4-Layer Migration):** Upgraded the Photodiode/OP-AMP feedback loop from 2 to 4 layers. By providing a dedicated **Ground Plane**, I minimized loop inductance and stabilized the sensitive analog feedback path against external EMI.
 2. **Clock Signal Isolation:** Re-routed high-speed clock lines on the MCU and ASIC boards to ensure maximum physical isolation from power signals, effectively mitigating **cross-talk** and harmonic emissions.
 3. **RF Radiation Pattern Optimization:** Relocated the Wi-Fi module to the top of the PCB and adjusted the placement to ensure the antenna radiates outward. This solved mechanical interference issues and optimized the **Radiation Pattern**, reducing internal EMI reflections.
+
 
 ## 🛠 Technical Stack Summary
 * **Low Power Design:** System-level Power Optimization (**3.7V / 300mAh Li-ion**), Battery Management (BMS).
