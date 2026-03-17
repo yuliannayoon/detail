@@ -54,23 +54,21 @@ The layout was engineered to maintain a strict 50 $\Omega$ environment to preven
 
 ---
 
-## 3. 🛡️ EMI/EMC Troubleshooting
-**Challenge:** The initial design (Old Board) exhibited harmonic spikes near the KN32 Class B limit line, risking certification failure.
+## 🛡️ EMI/EMC Troubleshooting & Signal Integrity
+**Challenge:** The initial design exhibited harmonic spikes near the **KN32 Class B** limit, risking certification failure and sensitive signal interference in the fNIRS module.
 
 ### 🔍 Diagnosis & Mitigation
-I implemented a series of hardware-level optimizations to secure a safe margin for mass production.
+I implemented high-precision hardware optimizations to stabilize the mixed-signal path and secure a safe EMI margin.
 
 | Status | Radiated Emission (RE) Test Result | Engineering Analysis |
 | :--- | :--- | :--- |
-| **Before (Old)** | <img src="https://github.com/user-attachments/assets/5bc9edeb-b79a-4988-a19c-0eeb6d53c23a" width="100%"> | Identified noise spikes in the 100-200 MHz range, reducing the safety margin. |
-| **After (New)** | <img src="https://github.com/user-attachments/assets/aafe484b-423c-4c0e-a745-dabe4d648b89" width="100%"> | **PASS:** Successfully flattened the emission profile across the 30 MHz - 1 GHz spectrum. |
+| **Before (Old)** | <img src="https://github.com/user-attachments/assets/5bc9edeb-b79a-4988-a19c-0eeb6d53c23a" width="100%"> | Identified noise spikes in the 100-200 MHz range, compromising the SNR of the fNIRS photodiode. |
+| **After (New)** | <img src="https://github.com/user-attachments/assets/aafe484b-423c-4c0e-a745-dabe4d648b89" width="100%"> | **PASS:** Successfully suppressed harmonic peaks by optimizing the return path and signal isolation. |
 
 ### 🛠 Applied Solutions
-1. **Decoupling Strategy:** Optimized capacitor placement near high-speed switching nodes.
-2. **Filtering:** Integrated Ferrite beads and LC filters on sensitive signal paths.
-3. **Shielding:** Improved contact resistance of the module's enclosure for enhanced EMI shielding.
-
----
+1. **Stack-up Optimization (4-Layer Migration):** Upgraded the Photodiode/OP-AMP feedback loop from 2 to 4 layers. By providing a dedicated **Ground Plane**, I minimized loop inductance and stabilized the sensitive analog feedback path against external EMI.
+2. **Clock Signal Isolation:** Re-routed high-speed clock lines on the MCU and ASIC boards to ensure maximum physical isolation from power signals, effectively mitigating **cross-talk** and harmonic emissions.
+3. **RF Radiation Pattern Optimization:** Relocated the Wi-Fi module to the top of the PCB and adjusted the placement to ensure the antenna radiates outward. This solved mechanical interference issues and optimized the **Radiation Pattern**, reducing internal EMI reflections.
 
 ## 🛠 Technical Stack Summary
 * **Low Power Design:** System-level Power Optimization (**3.7V / 300mAh Li-ion**), Battery Management (BMS).
