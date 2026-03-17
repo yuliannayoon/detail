@@ -5,7 +5,7 @@
 ## 📑 Executive Summary
 I am a Hardware Engineer with expertise in taking complex medical and wearable devices from **initial concept to mass production**. My work focuses on miniaturization, high-sensitivity sensor integration (fNIRS), and **Low Power Design** to ensure long-term reliability and an optimal user experience in portable devices.
 
-* **Key Achievement:** Developed and commercialized a world-first wearable fNIRS muscle oxygen monitor.
+* **Key Achievement:** Enhanced user accessibility and device performance of wearable fNIRS technology, overcoming the bulkiness of existing market solutions (e.g., Moxy).
 * **Core Competencies:** Low Power System Design, Rigid-Flex PCB, RF/EMI Optimization, Mass Production Quality Control.
 
 ---
