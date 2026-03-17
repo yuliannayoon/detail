@@ -54,7 +54,7 @@ The layout was engineered to maintain a strict 50 $\Omega$ environment to preven
 
 ---
 
-## 🛡️ EMI/EMC Troubleshooting & Signal Integrity
+##3. 🛡️ EMI/EMC Troubleshooting & Signal Integrity
 **Challenge:** The initial design exhibited harmonic spikes near the **KN32 Class B** limit, risking certification failure and sensitive signal interference in the fNIRS module.
 
 ### 🔍 Diagnosis & Mitigation
@@ -74,7 +74,6 @@ I implemented high-precision hardware optimizations to stabilize the mixed-signa
 ### 📐 Optimized Hardware Architecture
 ![Optimized Board Design](https://github.com/user-attachments/assets/14caffa5-49e0-42e4-af8f-459b70e8ded9)
 *Final layout verification showcasing the improved signal isolation and component placement.*
-
 ## 🛠 Technical Stack Summary
 * **Low Power Design:** System-level Power Optimization (**3.7V / 300mAh Li-ion**), Battery Management (BMS).
 * **Wireless Tech:** BLE (nRF52 series), Wireless Charging (Qi-standard, 1hr Fast Charge).
