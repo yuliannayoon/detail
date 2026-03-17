@@ -76,4 +76,3 @@ I implemented a series of hardware-level optimizations to secure a safe margin f
 * **Low Power Design:** System-level Power Optimization (**3.7V / 300mAh Li-ion**), Battery Management (BMS).
 * **Wireless Tech:** BLE (nRF52 series), Wireless Charging (Qi-standard, 1hr Fast Charge).
 * **Hardware Design:** Rigid-Flex PCB, Microstrip/Impedance Control, DFM (Design for Manufacturing).
-* **Equipment:** VNA (Keysight PNA), EMI Receiver, Spectrum Analyzer.
